@@ -1,4 +1,4 @@
-import Homepage from "@/pages/Homepage";
+import Homepage from "@/pages/homepage";
 import "@/styles/globals.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
