@@ -2,22 +2,18 @@ import { FC } from "react";
 
 const Homepage: FC = () => {
   return (
-    <>
-      <h1>Hello World</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut fugiat
-        distinctio nihil modi id omnis numquam quisquam nostrum optio laudantium
-        totam, a facilis, nobis, officiis minus repellendus illum eligendi alias
-        sed. Omnis, voluptate dicta rerum perspiciatis eos magnam quae ipsam
-        dolorem nulla excepturi alias aliquid dolorum accusantium fugit ab
-        facere ratione expedita velit quod praesentium, fugiat inventore rem
-        cumque? Natus laboriosam iste voluptas voluptate placeat libero eligendi
-        maxime tempore id dolore magnam esse minus quibusdam qui, sapiente est
-        iusto voluptatum. Sunt expedita voluptatem quasi iusto magnam nemo
-        suscipit, illo optio enim quia officiis! Adipisci minima deserunt
-        aliquid. Quod, corrupti exercitationem!
-      </p>
-    </>
+    <div className="container">
+      <div className="flex flex-col justify-center items-center min-h-screen">
+        <div className="flex flex-col gap-2">
+          <p className="text-lg font-semibold text-[#00d87f] text-center">
+            Mastering Freelancer Tools
+          </p>
+          <h2 className="scroll-m-20 text-3xl font-extrabold tracking-tight transition-colors text-center">
+            Artikel Menarik dengan Berbagai Topik
+          </h2>
+        </div>
+      </div>
+    </div>
   );
 };
 
